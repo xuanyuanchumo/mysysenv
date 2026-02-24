@@ -1,0 +1,11 @@
+/.trae
+/.venv
+/.venv2
+/config
+/logs
+/mysysenv.egg-info
+/mysysenv.spec
+/run.bat
+/run.ps1
+/tests
+/__pycache__
