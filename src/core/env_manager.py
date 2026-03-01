@@ -290,9 +290,9 @@ class EnvManager(IEnvManager):
         
         参数:
             tool: 工具名称
-            home_var: HOME 环境变量名称
+            home_var: HOME 环境变量名称（如 PYTHON_HOME）
             path: 工具安装路径
-            path_entries: 要添加到 PATH 的子目录列表
+            path_entries: 要添加到 PATH 的子目录列表（会转换为 %HOME_VAR%\子目录 格式）
             
         返回:
             设置成功返回 True，失败返回 False
